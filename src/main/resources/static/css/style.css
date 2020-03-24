@@ -1,0 +1,35 @@
+body {
+    font: 16px sans-serif;
+    color: #424242;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+thead tr {
+    border-bottom: 2px solid #cfd8dc;
+}
+
+tbody tr {
+    border-bottom: 1px solid #cfd8dc;
+}
+
+tbody tr:last-child {
+    border-bottom: none;
+}
+
+th {
+    padding: 15px 0;
+    text-align: left;
+}
+
+td {
+    padding: 10px 0;
+}
